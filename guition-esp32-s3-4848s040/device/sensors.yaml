@@ -59,7 +59,7 @@ binary_sensor:
         - lvgl.widget.update:
             id: desk_lamp_button
             state:
-             checked: !lambda return x == "on";
+             checked: !lambda return x == 1;
   # ===========================================================================
   # SENSOR: Air Purifier Fan
   # ===========================================================================
