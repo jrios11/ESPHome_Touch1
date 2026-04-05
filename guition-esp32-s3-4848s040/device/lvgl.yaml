@@ -21,7 +21,7 @@ lvgl:
       # Updated by both temperature sensors in sensors.yaml.
       # =========================================================================
       - label:
-          text: "-° / -°"
+          text: "-°F outside / -°F inside"
           id: temperatures
           styles: roboto15_style
           align: top_left
