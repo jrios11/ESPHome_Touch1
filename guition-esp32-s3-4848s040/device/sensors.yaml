@@ -19,7 +19,7 @@ sensor:
       - lvgl.label.update:
           id: temperatures
           text:
-            format: "%d° / %d°"
+            format: "%d°F outside / %d°F inside"
             args: [ '(int)round(x)', '(int)round(id(inside_temperature).state)' ]
 
   # ===========================================================================
@@ -34,7 +34,7 @@ sensor:
       - lvgl.label.update:
           id: temperatures
           text:
-            format: "%d° / %d°"
+            format: "%d°F outside / %d°F inside"
             args: [ '(int)round(id(outdoor_temperature).state)', '(int)round(x)' ]
 
 
@@ -59,8 +59,7 @@ binary_sensor:
         - lvgl.widget.update:
             id: desk_lamp_button
             state:
-              checked: !lambda return x;
-
+             checked: !lambda return x == "on";
   # ===========================================================================
   # SENSOR: Air Purifier Fan
   # ===========================================================================
