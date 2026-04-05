@@ -19,7 +19,7 @@ sensor:
       - lvgl.label.update:
           id: temperatures
           text:
-            format: "%d°F outside / %d°F inside"
+            format: "%d°F outside | %d°F inside"
             args: [ '(int)round(x)', '(int)round(id(inside_temperature).state)' ]
 
   # ===========================================================================
@@ -34,7 +34,7 @@ sensor:
       - lvgl.label.update:
           id: temperatures
           text:
-            format: "%d°F outside / %d°F inside"
+            format: "%d°F outside | %d°F inside"
             args: [ '(int)round(id(outdoor_temperature).state)', '(int)round(x)' ]
 
 
