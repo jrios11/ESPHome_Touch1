@@ -126,7 +126,7 @@ lvgl:
               - label:
                   text_font: $icon_font
                   align: top_left
-                  text: $bulb
+                  text: $lightbulb
               - label:
                   align: bottom_left
                   text: "Desk Lamp"
@@ -162,7 +162,7 @@ lvgl:
               - label:
                   text_font: $icon_font
                   align: top_left
-                  text: $fan
+                  text: $air_purifier
               - label:
                   align: bottom_left
                   text: "Air Purifier"
