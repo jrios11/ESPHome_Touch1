@@ -6,6 +6,7 @@ font:
     id: icon_font
     size: 40
     bpp: 4
+    
     glyphs: [
       "\U000F0335",  # mdi-lightbulb
       "\U000F042B",  # mdi-printer-3d
@@ -27,6 +28,8 @@ font:
       "\U000F0317",  # mdi-lan
       "\U000F0425",  # mdi-power
       "\U000F050F",  # mdi-thermometer
+      "\U000F033E", # mdi-lock
+      "\U000F0D44", # mdi-air-purifier
       ]
   - file: 'https://github.com/Templarian/MaterialDesign-Webfont/raw/v7.4.47/fonts/materialdesignicons-webfont.ttf'
     id: icon_font_small
@@ -59,3 +62,5 @@ substitutions:
   lan:            "\U000F0317"
   power:          "\U000F0425"
   thermometer:    "\U000F050F"
+  lock:           "\U000F033E"
+  air_purifier:   "\U000F0D44"
